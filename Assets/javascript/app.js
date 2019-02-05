@@ -7,7 +7,7 @@ $('document').ready(function () {
     // Questions & Answers
     var minnesotaQuestions = [
          {
-            Question: "How many lakes does Minnesota really have??",
+            Question: "How many lakes does Minnesota really have?",
             PossibleAnswers: ['10,000', '12,523', '15,291'],
             flags: [false, false, true],            
             Answer: '15,291'
@@ -110,7 +110,5 @@ $('document').ready(function () {
 
     // submit answers
     $("#questionHolder").on("click", "#checkAnswer", checkAnswers);
-
-
 
 });

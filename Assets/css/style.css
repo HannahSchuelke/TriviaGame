@@ -1,8 +1,25 @@
-/* General */
+
+
+body {
+    background-color: lightseagreen;
+}
+
 #wrapper {
-    margin: 60px;
+    margin: 50px;
     background:lightblue;
 }
-.header {
+h1 {
     text-align: center;
+    margin-top: 10px;
 }
+#timer {
+    font-weight: bold;
+}
+#start {
+    margin-bottom: 10px;
+}
+#checkAnswer {
+    margin-bottom: 10px;
+}
+
+
