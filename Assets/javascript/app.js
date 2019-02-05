@@ -1,10 +1,11 @@
 // run after Javascript is loaded
 $('document').ready(function () {
 
+// Variables
     let numCorrect = 0;
     let timeVar;
 
-    // Questions & Answers
+// Questions & Answers
     var minnesotaQuestions = [
          {
             Question: "How many lakes does Minnesota really have?",
@@ -38,6 +39,7 @@ $('document').ready(function () {
         }
     ];
 
+// DOM for questions & answers
     function createQuestionDOM(array){
         let formDiv = $("<form>");       
 
@@ -67,8 +69,7 @@ $('document').ready(function () {
 
     }
 
-    
-
+// Check answer button & alert
     function checkAnswers(){
         clearTimeout(timeVar);
         for(let i = 0; i < $("input").length; i++){
@@ -82,8 +83,7 @@ $('document').ready(function () {
         alert("You got " + numCorrect + " questions correct!");
     }
 
-    
-
+// Timer function & alert
     function timer(timeLeft){
         timeVar = setTimeout(function(){
             $("#timer").text("You have " + timeLeft + " seconds left!");
@@ -99,16 +99,13 @@ $('document').ready(function () {
         }, 1000);
     }
 
-
-    // click events: 
-
-    // starts game
+// click events: 
+  // starts game
     $("#start").on("click", function(){
         createQuestionDOM(minnesotaQuestions);
         timer(30);
     });
-
-    // submit answers
+  // submit answers
     $("#questionHolder").on("click", "#checkAnswer", checkAnswers);
 
 });

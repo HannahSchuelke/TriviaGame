@@ -1,9 +1,6 @@
-
-
 body {
     background-color: lightseagreen;
 }
-
 #wrapper {
     margin: 50px;
     background:lightblue;
@@ -21,5 +18,3 @@ h1 {
 #checkAnswer {
     margin-bottom: 10px;
 }
-
-
