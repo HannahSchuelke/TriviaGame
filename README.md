@@ -4,7 +4,7 @@
 
 A HTML/CSS/Javascript/Jquery project for the UMN Coding Bootcamp, Assignment 5. 
 
-![](TriviaGame/assets/images/triviaGame.png)
+![](/TriviaGame/assets/images/triviaGame.png)
 
 ## Author
 
