@@ -6,6 +6,10 @@ A HTML/CSS/Javascript/Jquery project for the UMN Coding Bootcamp, Assignment 5.
 
 ![](assets/images/triviaGame.png)
 
+## Accessible at:
+
+https://hannahschuelke.github.io/TriviaGame/
+
 ## Author
 
 Hannah Schuelke – hannah.r.schuelke@gmail.com
